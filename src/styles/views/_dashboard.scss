@@ -1,0 +1,49 @@
+.dashboard {
+  &--card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    .v-card__title {
+      font-size: 20px;
+      color: $kapital-red;
+      h5 {
+        width: 100%;
+        text-align: center;
+      }
+    }
+    .v-icon.v-icon{
+      color: $kapital-red;
+      font-size: 50px;
+    }
+
+    .v-card__actions {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      a {
+        font-size: 15px;
+        text-decoration: none;
+        color: $kapital-red;
+      }
+    }
+
+    &:hover{
+      background: $kapital-red;
+      transition: .3s ease-in-out;
+      .v-card__title{
+        color: #fff;
+      }
+      .v-icon.v-icon{
+        color: #fff;
+      }
+      .v-card__actions a{
+        color: #fff;
+      }
+    }
+
+  }
+
+}
+
+

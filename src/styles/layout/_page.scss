@@ -1,0 +1,21 @@
+.k-container {
+  background-color: #ffffff;
+  align-items: flex-start !important;
+  justify-content: flex-start !important;
+  display: flex;
+  width: 100%;
+}
+
+.k-page {
+  width: 100%;
+
+  &__header {
+    border-bottom: 1px solid #fff;
+  }
+}
+
+
+label {
+  font: 400 16px Roboto;
+  color: #424242;
+}
